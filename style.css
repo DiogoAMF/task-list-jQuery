@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #e6ecff; /* Cor de fundo azul claro */
+  background-color: #e6ecff;
   margin: 0;
   display: flex;
   justify-content: center;
@@ -14,7 +14,7 @@ body {
   background-color: #fff;
   border-radius: 12px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  animation: fadeIn 1s ease; /* Animação de fade-in */
+  animation: fadeIn 1s ease;
 }
 
 @keyframes fadeIn {
@@ -41,12 +41,12 @@ li {
   margin-bottom: 10px;
   padding: 10px;
   border-radius: 8px;
-  background-color: #fcefe9; /* Cor de fundo amarelo claro */
-  transition: background-color 0.3s ease; /* Transição suave da cor de fundo */
+  background-color: #fcefe9;
+  transition: background-color 0.3s ease;
 }
 
 li:hover {
-  background-color: #f8d49d; /* Cor de fundo amarelo escuro quando hover */
+  background-color: #f8d49d;
 }
 
 .concluido {
@@ -66,14 +66,14 @@ input[type="text"] {
 /* Estilizando botão */
 button {
   padding: 10px 20px;
-  background-color: #4caf50; /* Cor de fundo verde */
+  background-color: #4caf50;
   color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  transition: background-color 0.3s ease; /* Transição suave da cor de fundo */
+  transition: background-color 0.3s ease;
 }
 
 button:hover {
-  background-color: #45a049; /* Cor de fundo verde escuro quando hover */
+  background-color: #45a049;
 }
