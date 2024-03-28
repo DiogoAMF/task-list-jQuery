@@ -1,28 +1,40 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
   <head>
+    <!-- Define a codificação de caracteres -->
     <meta charset="UTF-8" />
+    <!-- Define a viewport para dispositivos móveis -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Título da página -->
     <title>Lista de Tarefas</title>
+    <!-- Inclui o arquivo de estilo -->
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <!-- Container principal -->
     <div class="container">
+      <!-- Título da lista de tarefas -->
       <h1>Lista de Tarefas</h1>
+      <!-- Formulário para adicionar tarefas -->
       <form id="form-tarefas">
+        <!-- Campo de entrada de texto para adicionar nova tarefa -->
         <input
           type="text"
           id="adicionar-tarefas"
           placeholder="Adicionar nova tarefa"
         />
+        <!-- Botão para adicionar tarefa -->
         <button type="submit">Adicionar +</button>
       </form>
+      <!-- Lista de tarefas -->
       <ul id="lista-tarefas">
-        <!-- Lista de tarefas será inserida aqui -->
       </ul>
     </div>
 
+    <!-- Inclui a biblioteca jQuery -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Inclui o script JavaScript principal -->
     <script src="main.js"></script>
   </body>
 </html>
+
