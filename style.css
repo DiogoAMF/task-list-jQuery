@@ -1,79 +1,88 @@
+/* Estilo para o corpo da página */
 body {
-  font-family: Arial, sans-serif;
-  background-color: #e6ecff;
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+  font-family: Arial, sans-serif; /* Define a fonte do texto */
+  background-color: #e6ecff; /* Define a cor de fundo */
+  margin: 0; /* Remove as margens padrão */
+  display: flex; /* Usa o modelo de layout flexível */
+  justify-content: center; /* Centraliza o conteúdo horizontalmente */
+  align-items: center; /* Centraliza o conteúdo verticalmente */
+  height: 100vh; /* Define a altura para ocupar a altura total da viewport */
 }
 
+/* Estilo para o container principal */
 .container {
-  max-width: 600px;
-  padding: 40px;
-  background-color: #fff;
-  border-radius: 12px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  animation: fadeIn 1s ease;
+  max-width: 600px; /* Define a largura máxima */
+  padding: 40px; /* Adiciona espaçamento interno */
+  background-color: #fff; /* Define a cor de fundo */
+  border-radius: 12px; /* Adiciona bordas arredondadas */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona sombra */
+  animation: fadeIn 1s ease; /* Animação de fade-in */
 }
 
+/* Animação de fade-in */
 @keyframes fadeIn {
   from {
-    opacity: 0;
+    opacity: 0; /* Opacidade inicial */
   }
   to {
-    opacity: 1;
+    opacity: 1; /* Opacidade final */
   }
 }
 
+/* Estilo para o título */
 h1 {
-  text-align: center;
-  color: #333;
+  text-align: center; /* Centraliza o texto */
+  color: #333; /* Define a cor do texto */
 }
 
+/* Estilo para a lista de tarefas */
 #lista-tarefas {
-  list-style-type: none;
-  padding: 0;
+  list-style-type: none; /* Remove a estilização padrão das listas */
+  padding: 0; /* Remove o espaçamento interno */
 }
 
+/* Estilo para os itens da lista */
 li {
-  cursor: pointer;
-  margin-bottom: 10px;
-  padding: 10px;
-  border-radius: 8px;
-  background-color: #fcefe9;
-  transition: background-color 0.3s ease;
+  cursor: pointer; /* Define o cursor como ponteiro */
+  margin-bottom: 10px; /* Adiciona espaçamento abaixo */
+  padding: 10px; /* Adiciona espaçamento interno */
+  border-radius: 8px; /* Adiciona bordas arredondadas */
+  background-color: #fcefe9; /* Define a cor de fundo */
+  transition: background-color 0.3s ease; /* Adiciona transição suave */
 }
 
+/* Estilo quando o item é hover */
 li:hover {
-  background-color: #f8d49d;
+  background-color: #f8d49d; /* Altera a cor de fundo quando hover */
 }
 
+/* Estilo para itens concluídos */
 .concluido {
-  text-decoration: line-through;
-  color: #999;
+  text-decoration: line-through; /* Adiciona linha no texto */
+  color: #999; /* Define a cor do texto */
 }
 
 /* Estilizando input */
 input[type="text"] {
-  width: calc(100% - 20px);
-  padding: 10px;
-  margin-bottom: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+  width: calc(100% - 20px); /* Define a largura do input */
+  padding: 10px; /* Adiciona espaçamento interno */
+  margin-bottom: 10px; /* Adiciona espaçamento abaixo */
+  border: 1px solid #ccc; /* Adiciona borda */
+  border-radius: 5px; /* Adiciona bordas arredondadas */
 }
 
 /* Estilizando botão */
 button {
-  padding: 10px 20px;
-  background-color: #4caf50;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+  padding: 10px 20px; /* Adiciona espaçamento interno */
+  background-color: #4caf50; /* Define a cor de fundo */
+  color: white; /* Define a cor do texto */
+  border: none; /* Remove a borda */
+  border-radius: 5px; /* Adiciona bordas arredondadas */
+  cursor: pointer; /* Define o cursor como ponteiro */
+  transition: background-color 0.3s ease; /* Adiciona transição suave */
 }
 
+/* Estilo quando o botão é hover */
 button:hover {
-  background-color: #45a049;
+  background-color: #45a049; /* Altera a cor de fundo quando hover */
 }
